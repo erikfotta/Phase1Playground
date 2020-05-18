@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135A34F72463C14F00F65AE8 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A34F62463C14F00F65AE8 /* AsyncViewController.swift */; };
+		135A34F92463C16A00F65AE8 /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A34F82463C16A00F65AE8 /* SyncViewController.swift */; };
+		135A34FB2463C21B00F65AE8 /* list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 135A34FA2463C21B00F65AE8 /* list.txt */; };
+		135A34FE2463D8C900F65AE8 /* PrettyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A34FD2463D8C900F65AE8 /* PrettyViewController.swift */; };
 		137151A0243416930079707D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371519F243416930079707D /* AppDelegate.swift */; };
 		137151A2243416930079707D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137151A1243416930079707D /* SceneDelegate.swift */; };
 		137151A4243416930079707D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137151A3243416930079707D /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		135A34F62463C14F00F65AE8 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		135A34F82463C16A00F65AE8 /* SyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
+		135A34FA2463C21B00F65AE8 /* list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = list.txt; sourceTree = "<group>"; };
+		135A34FD2463D8C900F65AE8 /* PrettyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyViewController.swift; sourceTree = "<group>"; };
 		1371519C243416930079707D /* Phase1Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phase1Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1371519F243416930079707D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		137151A1243416930079707D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135A34FC2463C35100F65AE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				135A34FA2463C21B00F65AE8 /* list.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		13715193243416930079707D = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +76,12 @@
 				137151A1243416930079707D /* SceneDelegate.swift */,
 				137151A3243416930079707D /* ViewController.swift */,
 				137151A5243416930079707D /* Main.storyboard */,
+				135A34FD2463D8C900F65AE8 /* PrettyViewController.swift */,
+				135A34F62463C14F00F65AE8 /* AsyncViewController.swift */,
+				135A34F82463C16A00F65AE8 /* SyncViewController.swift */,
 				137151A8243416970079707D /* Assets.xcassets */,
 				137151AA243416970079707D /* LaunchScreen.storyboard */,
+				135A34FC2463C35100F65AE8 /* Resources */,
 				137151AD243416970079707D /* Info.plist */,
 			);
 			path = Phase1Playground;
@@ -127,6 +147,7 @@
 			files = (
 				137151AC243416970079707D /* LaunchScreen.storyboard in Resources */,
 				137151A9243416970079707D /* Assets.xcassets in Resources */,
+				135A34FB2463C21B00F65AE8 /* list.txt in Resources */,
 				137151A7243416930079707D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				137151A4243416930079707D /* ViewController.swift in Sources */,
+				135A34F72463C14F00F65AE8 /* AsyncViewController.swift in Sources */,
+				135A34FE2463D8C900F65AE8 /* PrettyViewController.swift in Sources */,
 				137151A0243416930079707D /* AppDelegate.swift in Sources */,
 				137151A2243416930079707D /* SceneDelegate.swift in Sources */,
+				135A34F92463C16A00F65AE8 /* SyncViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
